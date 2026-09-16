@@ -1,0 +1,24 @@
+# Gradle / build outputs
+/build/
+/app/build/
+.gradle/
+.kotlin/
+
+# Local machine config (SDK path is developer-specific)
+local.properties
+
+# Android Studio / IntelliJ project files
+.idea/
+*.iml
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Raw sample source material (large; the small piece the app actually
+# bundles already lives in app/src/main/assets/sample/)
+/Sample/
+
+# OS cruft
+.DS_Store
+Thumbs.db
